@@ -1,0 +1,18 @@
+results 1 : varying number of principal components
+results 2 : number of principal components with only None as number of principal components
+results 3 : varying smoothing points, order polynomial fit, number derivatives
+results 4 : Savitzky-Golay filter is removed from pre-processing
+results 5 : varying max_features and min_samples_leaf for random forest classifier
+results 6 : adding and removing some pre-processing operation : noise reduction, interval selection, normalisation, Savitzky-Golay filter
+results 7 : random forest with varying max_features and min_samples_leaf. Only Savitzky-Golay is performed as pre-processing operation. n_estimators = 500
+results 8 : extra trees with varying max_features and min_samples_leaf. Only Savitzky-Golay is performed as pre-processing operation. n_estimators = 500
+results 9 : tests with square subwindows of increasing size. Only the center of the square is given as output
+results 10 and results 11 : tests on classes equalization resamplers
+results 12 : tests on number of trees from 20 to 2000 with random forest classifiers and extra-trees classifiers
+results 13 : tests on number of trees from 20 to 2000 with balanced random forest classifier with and without bootstrapping
+results 14 : tests on number of trees from 1 to 100 with random forest classifiers and extra-trees classifiers
+results 15 : tests on number of trees from 1 to 100 with balanced random forest classifier with and without bootstrapping
+results 16 : tests with square subwindows of increasing size. Multioutput random forest classifier is trained
+results 17 : test consisting in training a classifier with the best parameters found
+results 18 : test consisting in making feature selection based on feature importances computed for the model trained with the best parameters
+

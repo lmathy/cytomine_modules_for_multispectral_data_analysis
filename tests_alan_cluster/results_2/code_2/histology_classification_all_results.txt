@@ -1,0 +1,124 @@
+idModel: 0
+seed: 1595664818
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+noiseReductionFirst: True
+methodNoiseReduction: sklearn_pca
+numberPrincipalComponents: None
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+random_state: RandomState(MT19937)
+
+pcaClass informations:
+copy: True
+iterated_power: auto
+n_components: None
+random_state: RandomState(MT19937)
+svd_solver: auto
+tol: 0.0
+whiten: False
+
+intervalsToSelect: 
+[[1000 1350]
+ [1490 1800]]
+normalise: True
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 9
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 1
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: random_under_sampler
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+
+methodFeatureSelection: None
+
+waveNumbers:
+[1000 1004 1008 1012 1016 1020 1024 1028 1032 1036 1040 1044 1048 1052
+ 1056 1060 1064 1068 1072 1076 1080 1084 1088 1092 1096 1100 1104 1108
+ 1112 1116 1120 1124 1128 1132 1136 1140 1144 1148 1152 1156 1160 1164
+ 1168 1172 1176 1180 1184 1188 1192 1196 1200 1204 1208 1212 1216 1220
+ 1224 1228 1232 1236 1240 1244 1248 1252 1256 1260 1264 1268 1272 1276
+ 1280 1284 1288 1292 1296 1300 1304 1308 1312 1316 1320 1324 1328 1332
+ 1336 1340 1344 1348 1352 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: 15
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+              precision    recall  f1-score   support
+
+           0       0.84      0.96      0.89     26224
+           1       0.94      0.80      0.86     22755
+           2       0.89      0.84      0.87      2665
+           3       0.94      0.92      0.93      2318
+
+    accuracy                           0.88     53962
+   macro avg       0.90      0.88      0.89     53962
+weighted avg       0.89      0.88      0.88     53962
+
+confusion matrix not normalized:
+[[25095  1081    47     1]
+ [ 4262 18112   234   147]
+ [  415     0  2250     0]
+ [  172     8     0  2138]]
+confusion matrix normalized according to the true classes:
+[[9.56947834e-01 4.12217816e-02 1.79225137e-03 3.81330079e-05]
+ [1.87299495e-01 7.95956933e-01 1.02834542e-02 6.46011866e-03]
+ [1.55722326e-01 0.00000000e+00 8.44277674e-01 0.00000000e+00]
+ [7.42018982e-02 3.45125108e-03 0.00000000e+00 9.22346851e-01]]
+confusion matrix normalized according to the predicted classes:
+[[8.38064387e-01 5.62991511e-02 1.85697353e-02 4.37445319e-04]
+ [1.42332354e-01 9.43284204e-01 9.24535757e-02 6.43044619e-02]
+ [1.38592038e-02 0.00000000e+00 8.88976689e-01 0.00000000e+00]
+ [5.74405557e-03 4.16644966e-04 0.00000000e+00 9.35258093e-01]]
+confusion matrix normalized according to the whole population:
+[[4.65049479e-01 2.00326155e-02 8.70983285e-04 1.85315592e-05]
+ [7.89815055e-02 3.35643601e-01 4.33638486e-03 2.72413921e-03]
+ [7.69059709e-03 0.00000000e+00 4.16960083e-02 0.00000000e+00]
+ [3.18742819e-03 1.48252474e-04 0.00000000e+00 3.96204737e-02]]
+
+

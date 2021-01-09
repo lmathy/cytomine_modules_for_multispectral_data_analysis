@@ -1,0 +1,130 @@
+idModel: 0
+seed: 1609964211
+overlayPath: /media/lionel/ssd_ext4/bloc_5/projets/master_thesis/datasets/quantum_cascade_laser_spectral_histopathology/overlay
+dataCubePath: /media/lionel/ssd_ext4/bloc_5/projets/master_thesis/datasets/quantum_cascade_laser_spectral_histopathology/br20832_cores
+kFoldIndicesPath: /media/lionel/ssd_ext4/bloc_5/projets/master_thesis/datasets/quantum_cascade_laser_spectral_histopathology/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: anticipated_random_under_sampler
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+
+methodFeatureSelection: impurity_based_importances
+featureImportancesThreshold: 0.95
+featureImportancesPath: ./histology_classification_models/0.pkl
+
+waveNumbers:
+[1560 1564 1624 1632 1620 1628 1556 1604 1600 1540 1568 1532 1572 1652
+ 1552 1672 1616 1536 1668 1524 1656 1544 1712 1708 1520 1588 1704 1592
+ 1548 1660 1528 1596 1608 1664 1700 1584 1644 1336 1216 1696 1332 1220
+ 1716 1648 1200 1636 1328 1236 1612 1512 1232 1196 1580 1676 1516 1428
+ 1576 1212 1688 1224 1228 1340 1240 1448 1444  964 1404 1684 1484 1468
+ 1640 1400 1376 1064 1380 1296 1452 1120 1464 1488 1144 1460 1068 1472
+ 1276 1432 1368]
+number of wave numbers: 87
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 100
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94     26224
+           1       0.94      0.87      0.90     22755
+           2       0.68      0.95      0.79      2665
+           3       0.91      0.96      0.94      2318
+
+    accuracy                           0.92     53962
+   macro avg       0.87      0.93      0.89     53962
+weighted avg       0.92      0.92      0.92     53962
+
+confusion matrix not normalized:
+[[24990  1141    81    12]
+ [ 1715 19711  1131   198]
+ [  123     0  2542     0]
+ [    1    92     0  2225]]
+confusion matrix normalized according to the true classes:
+[[9.52943868e-01 4.35097621e-02 3.08877364e-03 4.57596095e-04]
+ [7.53680510e-02 8.66227203e-01 4.97033619e-02 8.70138431e-03]
+ [4.61538462e-02 0.00000000e+00 9.53846154e-01 0.00000000e+00]
+ [4.31406385e-04 3.96893874e-02 0.00000000e+00 9.59879206e-01]]
+confusion matrix normalized according to the predicted classes:
+[[9.31454769e-01 5.44786096e-02 2.15769845e-02 4.92813142e-03]
+ [6.39233665e-02 9.41128724e-01 3.01278636e-01 8.13141684e-02]
+ [4.58459130e-03 0.00000000e+00 6.77144379e-01 0.00000000e+00]
+ [3.72731000e-05 4.39266616e-03 0.00000000e+00 9.13757700e-01]]
+confusion matrix normalized according to the whole population:
+[[4.63103666e-01 2.11445091e-02 1.50105630e-03 2.22378711e-04]
+ [3.17816241e-02 3.65275564e-01 2.09591935e-02 3.66924873e-03]
+ [2.27938179e-03 0.00000000e+00 4.71072236e-02 0.00000000e+00]
+ [1.85315592e-05 1.70490345e-03 0.00000000e+00 4.12327193e-02]]
+
+

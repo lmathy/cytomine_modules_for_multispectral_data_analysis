@@ -1,0 +1,1868 @@
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/miniconda3/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+loading data cube and concatenating each class
+merging classes in progress
+loading data cube and concatenating each class
+merging classes in progress
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model

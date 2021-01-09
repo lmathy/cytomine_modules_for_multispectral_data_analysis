@@ -1,0 +1,217 @@
+Compiling histology_classification_cython_code.pyx because it changed.
+[1/1] Cythonizing histology_classification_cython_code.pyx
+running build_ext
+building 'histology_classification_cython_code' extension
+creating build
+creating build/temp.linux-x86_64-3.8
+gcc -pthread -B /home/lmathy/anaconda3/envs/base_updated/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/lmathy/anaconda3/envs/base_updated/include/python3.8 -c histology_classification_cython_code.c -o build/temp.linux-x86_64-3.8/histology_classification_cython_code.o
+creating build/lib.linux-x86_64-3.8
+gcc -pthread -shared -B /home/lmathy/anaconda3/envs/base_updated/compiler_compat -L/home/lmathy/anaconda3/envs/base_updated/lib -Wl,-rpath=/home/lmathy/anaconda3/envs/base_updated/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-3.8/histology_classification_cython_code.o -o build/lib.linux-x86_64-3.8/histology_classification_cython_code.cpython-38-x86_64-linux-gnu.so
+copying build/lib.linux-x86_64-3.8/histology_classification_cython_code.cpython-38-x86_64-linux-gnu.so -> 
+loading data cube and concatenating each class
+loading data cube and concatenating each class
+quality test in progress
+quality test in progress
+merging classes in progress
+merging classes in progress
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/imblearn/under_sampling/_prototype_selection/_nearmiss.py:177: UserWarning: The number of the samples to be selected is larger than the number of samples available. The balancing ratio cannot be ensure and all samples will be returned.
+  warnings.warn(
+/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/imblearn/under_sampling/_prototype_selection/_nearmiss.py:177: UserWarning: The number of the samples to be selected is larger than the number of samples available. The balancing ratio cannot be ensure and all samples will be returned.
+  warnings.warn(
+/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/imblearn/under_sampling/_prototype_selection/_nearmiss.py:177: UserWarning: The number of the samples to be selected is larger than the number of samples available. The balancing ratio cannot be ensure and all samples will be returned.
+  warnings.warn(
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+training the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+testing the model
+noise reduction in progress
+selecting range
+normalising vector
+Savitzky Golay filter in progress
+classes equalization in progress
+Traceback (most recent call last):
+  File "histology_classification_multiple_tests.py", line 2412, in <module>
+    model_for_identifying_histology(OVERLAYPATH, DATACUBEPATH, KFOLDINDICESPATH, COLOURS, PEAKWAVEQUALITYTEST, TROUGHWAVEQUALITYTEST, MINIMUMQUALITYTEST, MAXIMUMQUALITYTEST, NOISEREDUCTIONFIRSTLIST, NOISEREDUCTIONLIST, NUMBERPRINCIPALCOMPONENTSLIST, INTERVALSTOSELECTLIST, NORMALISELIST, METHODSAVITZKYGOLAYFILTERLIST, SMOOTHINGPOINTSLIST, ORDERPOLYNOMIALFITLIST, ADDITIONALPARAMETERSSAVITZKYGOLAYFILTERLIST, DICTIONARYCLASSESMAPPING, CLASSESEQUALIZATIONLIST, FEATURESELECTIONLIST, MODELALGORITHMLIST, TESTPARAMETERSLIST, FILENAMETEXT, FOLDERDATAFRAME, SEED, SUBWINDOWPARAMETERSLIST, IDMODELBEGIN, FOLDERMODELS, MAKEQUALITYTESTTRAININGSET, MAKEQUALITYTESTTESTSET)
+  File "histology_classification_multiple_tests.py", line 320, in model_for_identifying_histology
+    trainingSetInput, trainingSetOutput = classes_equalization(trainingSetInput, trainingSetOutput, methodClassesEqualization, additionalParametersClassesEqualization)
+  File "histology_classification_multiple_tests.py", line 1844, in classes_equalization
+    setInput, setOutput = sampler.fit_resample(setInput, setOutput)
+  File "/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/imblearn/base.py", line 83, in fit_resample
+    output = self._fit_resample(X, y)
+  File "/home/lmathy/anaconda3/envs/base_updated/lib/python3.8/site-packages/imblearn/over_sampling/_adasyn.py", line 127, in _fit_resample
+    raise RuntimeError(
+RuntimeError: Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.

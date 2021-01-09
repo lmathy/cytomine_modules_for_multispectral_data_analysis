@@ -1,0 +1,12 @@
+Compiling histology_classification_cython_code.pyx because it changed.
+[1/1] Cythonizing histology_classification_cython_code.pyx
+running build_ext
+building 'histology_classification_cython_code' extension
+creating build
+creating build/temp.linux-x86_64-3.8
+gcc -pthread -B /home/lmathy/anaconda3/envs/base_updated/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/lmathy/anaconda3/envs/base_updated/include/python3.8 -c histology_classification_cython_code.c -o build/temp.linux-x86_64-3.8/histology_classification_cython_code.o
+creating build/lib.linux-x86_64-3.8
+gcc -pthread -shared -B /home/lmathy/anaconda3/envs/base_updated/compiler_compat -L/home/lmathy/anaconda3/envs/base_updated/lib -Wl,-rpath=/home/lmathy/anaconda3/envs/base_updated/lib -Wl,--no-as-needed -Wl,--sysroot=/ build/temp.linux-x86_64-3.8/histology_classification_cython_code.o -o build/lib.linux-x86_64-3.8/histology_classification_cython_code.cpython-38-x86_64-linux-gnu.so
+copying build/lib.linux-x86_64-3.8/histology_classification_cython_code.cpython-38-x86_64-linux-gnu.so -> 
+/var/spool/slurm/slurmd/job1486594/slurm_script: line 17: 3710267 Killed                  python histology_classification_multiple_tests.py
+slurmstepd: error: Detected 1 oom-kill event(s) in step 1486594.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

@@ -1,0 +1,422 @@
+file name: A11.png
+number of pixels whose quality test failed: 237
+proportion of pixels whose quality test failed: 0.1716147719044171
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.78      1.00      0.88       859
+           1       0.92      0.16      0.27       285
+
+    accuracy                           0.79      1144
+   macro avg       0.85      0.58      0.57      1144
+weighted avg       0.82      0.79      0.72      1144
+
+confusion matrix not normalized:
+[[855   4]
+ [240  45]]
+confusion matrix normalized according to the true classes:
+[[0.99534342 0.00465658]
+ [0.84210526 0.15789474]]
+confusion matrix normalized according to the predicted classes:
+[[0.78082192 0.08163265]
+ [0.21917808 0.91836735]]
+confusion matrix normalized according to the whole population:
+[[0.74737762 0.0034965 ]
+ [0.20979021 0.03933566]]
+
+file name: B4.png
+number of pixels whose quality test failed: 97
+proportion of pixels whose quality test failed: 0.012805280528052805
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.73      0.97      0.83      1918
+           1       0.91      0.73      0.81      2175
+           2       1.00      0.95      0.98      2665
+           3       0.96      0.87      0.91       720
+
+    accuracy                           0.88      7478
+   macro avg       0.90      0.88      0.88      7478
+weighted avg       0.90      0.88      0.88      7478
+
+confusion matrix not normalized:
+[[1851   67    0    0]
+ [ 561 1587    0   27]
+ [ 127    0 2538    0]
+ [   0   94    0  626]]
+confusion matrix normalized according to the true classes:
+[[0.96506778 0.03493222 0.         0.        ]
+ [0.25793103 0.72965517 0.         0.01241379]
+ [0.04765478 0.         0.95234522 0.        ]
+ [0.         0.13055556 0.         0.86944444]]
+confusion matrix normalized according to the predicted classes:
+[[0.72902718 0.03832952 0.         0.        ]
+ [0.22095313 0.90789474 0.         0.04134763]
+ [0.05001969 0.         1.         0.        ]
+ [0.         0.05377574 0.         0.95865237]]
+confusion matrix normalized according to the whole population:
+[[0.24752608 0.00895961 0.         0.        ]
+ [0.07502006 0.21222252 0.         0.00361059]
+ [0.01698315 0.         0.33939556 0.        ]
+ [0.         0.01257021 0.         0.08371222]]
+
+file name: B7.png
+All pixels passed the quality test
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       1.00      0.02      0.04       389
+           1       0.52      1.00      0.68       412
+
+    accuracy                           0.52       801
+   macro avg       0.76      0.51      0.36       801
+weighted avg       0.75      0.52      0.37       801
+
+confusion matrix not normalized:
+[[  8 381]
+ [  0 412]]
+confusion matrix normalized according to the true classes:
+[[0.02056555 0.97943445]
+ [0.         1.        ]]
+confusion matrix normalized according to the predicted classes:
+[[1.         0.48045397]
+ [0.         0.51954603]]
+confusion matrix normalized according to the whole population:
+[[0.00998752 0.47565543]
+ [0.         0.51435705]]
+
+file name: D13.png
+number of pixels whose quality test failed: 5
+proportion of pixels whose quality test failed: 0.0026896180742334587
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.97      0.62      0.76       290
+           1       0.93      1.00      0.96      1564
+
+    accuracy                           0.94      1854
+   macro avg       0.95      0.81      0.86      1854
+weighted avg       0.94      0.94      0.93      1854
+
+confusion matrix not normalized:
+[[ 181  109]
+ [   6 1558]]
+confusion matrix normalized according to the true classes:
+[[0.62413793 0.37586207]
+ [0.00383632 0.99616368]]
+confusion matrix normalized according to the predicted classes:
+[[0.96791444 0.06538692]
+ [0.03208556 0.93461308]]
+confusion matrix normalized according to the whole population:
+[[0.09762675 0.0587918 ]
+ [0.00323625 0.8403452 ]]
+
+file name: E3.png
+number of pixels whose quality test failed: 16
+proportion of pixels whose quality test failed: 0.009461856889414548
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       1.00      0.72      0.84       714
+           1       0.77      0.59      0.67       961
+           2       0.00      0.00      0.00         0
+           3       0.00      0.00      0.00         0
+
+    accuracy                           0.64      1675
+   macro avg       0.44      0.33      0.38      1675
+weighted avg       0.87      0.64      0.74      1675
+
+confusion matrix not normalized:
+[[514 169  11  20]
+ [  0 565 210 186]
+ [  0   0   0   0]
+ [  0   0   0   0]]
+confusion matrix normalized according to the true classes:
+[[0.71988796 0.23669468 0.01540616 0.0280112 ]
+ [0.         0.58792924 0.21852237 0.19354839]
+ [0.         0.         0.         0.        ]
+ [0.         0.         0.         0.        ]]
+confusion matrix normalized according to the predicted classes:
+[[1.         0.23024523 0.04977376 0.09708738]
+ [0.         0.76975477 0.95022624 0.90291262]
+ [0.         0.         0.         0.        ]
+ [0.         0.         0.         0.        ]]
+confusion matrix normalized according to the whole population:
+[[0.30686567 0.10089552 0.00656716 0.0119403 ]
+ [0.         0.33731343 0.12537313 0.11104478]
+ [0.         0.         0.         0.        ]
+ [0.         0.         0.         0.        ]]
+
+file name: F12.png
+number of pixels whose quality test failed: 79
+proportion of pixels whose quality test failed: 0.024315173899661435
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.86      0.95      0.91      1282
+           1       0.97      0.89      0.93      1888
+           3       0.00      0.00      0.00         0
+
+    accuracy                           0.92      3170
+   macro avg       0.61      0.62      0.61      3170
+weighted avg       0.92      0.92      0.92      3170
+
+confusion matrix not normalized:
+[[1222   60    0]
+ [ 196 1688    4]
+ [   0    0    0]]
+confusion matrix normalized according to the true classes:
+[[0.95319813 0.04680187 0.        ]
+ [0.10381356 0.8940678  0.00211864]
+ [0.         0.         0.        ]]
+confusion matrix normalized according to the predicted classes:
+[[0.86177715 0.03432494 0.        ]
+ [0.13822285 0.96567506 1.        ]
+ [0.         0.         0.        ]]
+confusion matrix normalized according to the whole population:
+[[0.38548896 0.01892744 0.        ]
+ [0.06182965 0.53249211 0.00126183]
+ [0.         0.         0.        ]]
+
+file name: F9.png
+number of pixels whose quality test failed: 38
+proportion of pixels whose quality test failed: 0.02392947103274559
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.65      0.55      0.60       486
+           1       0.81      0.86      0.84      1064
+
+    accuracy                           0.77      1550
+   macro avg       0.73      0.71      0.72      1550
+weighted avg       0.76      0.77      0.76      1550
+
+confusion matrix not normalized:
+[[267 219]
+ [144 920]]
+confusion matrix normalized according to the true classes:
+[[0.54938272 0.45061728]
+ [0.13533835 0.86466165]]
+confusion matrix normalized according to the predicted classes:
+[[0.64963504 0.19227392]
+ [0.35036496 0.80772608]]
+confusion matrix normalized according to the whole population:
+[[0.17225806 0.14129032]
+ [0.09290323 0.59354839]]
+
+file name: J11.png
+All pixels passed the quality test
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      1.00      8372
+           1       0.98      0.48      0.64      1030
+           2       0.00      0.00      0.00         0
+
+    accuracy                           0.94      9402
+   macro avg       0.66      0.49      0.55      9402
+weighted avg       1.00      0.94      0.96      9402
+
+confusion matrix not normalized:
+[[8329   12   31]
+ [  16  490  524]
+ [   0    0    0]]
+confusion matrix normalized according to the true classes:
+[[0.99486383 0.00143335 0.00370282]
+ [0.01553398 0.47572816 0.50873786]
+ [0.         0.         0.        ]]
+confusion matrix normalized according to the predicted classes:
+[[0.99808268 0.02390438 0.05585586]
+ [0.00191732 0.97609562 0.94414414]
+ [0.         0.         0.        ]]
+confusion matrix normalized according to the whole population:
+[[0.88587535 0.00127632 0.00329717]
+ [0.00170177 0.05211657 0.05573282]
+ [0.         0.         0.        ]]
+
+file name: J4.png
+number of pixels whose quality test failed: 262
+proportion of pixels whose quality test failed: 0.07920193470374849
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.96      0.95      0.96      1570
+           1       0.95      0.96      0.96      1476
+           3       0.00      0.00      0.00         0
+
+    accuracy                           0.96      3046
+   macro avg       0.64      0.64      0.64      3046
+weighted avg       0.96      0.96      0.96      3046
+
+confusion matrix not normalized:
+[[1496   74    0]
+ [  55 1420    1]
+ [   0    0    0]]
+confusion matrix normalized according to the true classes:
+[[9.52866242e-01 4.71337580e-02 0.00000000e+00]
+ [3.72628726e-02 9.62059621e-01 6.77506775e-04]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00]]
+confusion matrix normalized according to the predicted classes:
+[[0.96453901 0.04953146 0.        ]
+ [0.03546099 0.95046854 1.        ]
+ [0.         0.         0.        ]]
+confusion matrix normalized according to the whole population:
+[[4.91135916e-01 2.42941563e-02 0.00000000e+00]
+ [1.80564675e-02 4.66185161e-01 3.28299409e-04]
+ [0.00000000e+00 0.00000000e+00 0.00000000e+00]]
+
+file name: J6.png
+number of pixels whose quality test failed: 117
+proportion of pixels whose quality test failed: 0.016040581299698382
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97      5801
+           1       0.98      0.77      0.86      1376
+
+    accuracy                           0.95      7177
+   macro avg       0.96      0.88      0.91      7177
+weighted avg       0.95      0.95      0.95      7177
+
+confusion matrix not normalized:
+[[5774   27]
+ [ 321 1055]]
+confusion matrix normalized according to the true classes:
+[[0.99534563 0.00465437]
+ [0.23328488 0.76671512]]
+confusion matrix normalized according to the predicted classes:
+[[0.94733388 0.02495379]
+ [0.05266612 0.97504621]]
+confusion matrix normalized according to the whole population:
+[[0.80451442 0.00376202]
+ [0.04472621 0.14699735]]
+
+file name: K3.png
+All pixels passed the quality test
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         0
+           3       1.00      0.99      1.00      1598
+
+    accuracy                           0.99      1598
+   macro avg       0.50      0.50      0.50      1598
+weighted avg       1.00      0.99      1.00      1598
+
+confusion matrix not normalized:
+[[   0    0]
+ [  14 1584]]
+confusion matrix normalized according to the true classes:
+[[0.         0.        ]
+ [0.00876095 0.99123905]]
+confusion matrix normalized according to the predicted classes:
+[[0. 0.]
+ [1. 1.]]
+confusion matrix normalized according to the whole population:
+[[0.         0.        ]
+ [0.00876095 0.99123905]]
+
+file name: L2.png
+number of pixels whose quality test failed: 698
+proportion of pixels whose quality test failed: 0.1745
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.91      1.00      0.95      1885
+           1       1.00      0.87      0.93      1417
+
+    accuracy                           0.94      3302
+   macro avg       0.95      0.93      0.94      3302
+weighted avg       0.95      0.94      0.94      3302
+
+confusion matrix not normalized:
+[[1885    0]
+ [ 189 1228]]
+confusion matrix normalized according to the true classes:
+[[1.         0.        ]
+ [0.13338038 0.86661962]]
+confusion matrix normalized according to the predicted classes:
+[[0.90887175 0.        ]
+ [0.09112825 1.        ]]
+confusion matrix normalized according to the whole population:
+[[0.57086614 0.        ]
+ [0.05723804 0.37189582]]
+
+file name: M2.png
+number of pixels whose quality test failed: 1
+proportion of pixels whose quality test failed: 0.003194888178913738
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       1.00      0.71      0.83        59
+           1       0.94      1.00      0.97       253
+
+    accuracy                           0.95       312
+   macro avg       0.97      0.86      0.90       312
+weighted avg       0.95      0.95      0.94       312
+
+confusion matrix not normalized:
+[[ 42  17]
+ [  0 253]]
+confusion matrix normalized according to the true classes:
+[[0.71186441 0.28813559]
+ [0.         1.        ]]
+confusion matrix normalized according to the predicted classes:
+[[1.         0.06296296]
+ [0.         0.93703704]]
+confusion matrix normalized according to the whole population:
+[[0.13461538 0.05448718]
+ [0.         0.81089744]]
+
+file name: M3.png
+number of pixels whose quality test failed: 63
+proportion of pixels whose quality test failed: 0.012180974477958236
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       785
+           1       1.00      1.00      1.00      4324
+
+    accuracy                           1.00      5109
+   macro avg       0.99      1.00      1.00      5109
+weighted avg       1.00      1.00      1.00      5109
+
+confusion matrix not normalized:
+[[ 785    0]
+ [  13 4311]]
+confusion matrix normalized according to the true classes:
+[[1.         0.        ]
+ [0.00300648 0.99699352]]
+confusion matrix normalized according to the predicted classes:
+[[0.98370927 0.        ]
+ [0.01629073 1.        ]]
+confusion matrix normalized according to the whole population:
+[[0.15365042 0.        ]
+ [0.00254453 0.84380505]]
+
+file name: M4.png
+number of pixels whose quality test failed: 308
+proportion of pixels whose quality test failed: 0.04630186410102225
+All pixels were classified
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98      1814
+           1       1.00      0.98      0.99      4530
+
+    accuracy                           0.99      6344
+   macro avg       0.98      0.99      0.99      6344
+weighted avg       0.99      0.99      0.99      6344
+
+confusion matrix not normalized:
+[[1814    0]
+ [  69 4461]]
+confusion matrix normalized according to the true classes:
+[[1.         0.        ]
+ [0.01523179 0.98476821]]
+confusion matrix normalized according to the predicted classes:
+[[0.96335635 0.        ]
+ [0.03664365 1.        ]]
+confusion matrix normalized according to the whole population:
+[[0.28593947 0.        ]
+ [0.01087642 0.70318411]]
+

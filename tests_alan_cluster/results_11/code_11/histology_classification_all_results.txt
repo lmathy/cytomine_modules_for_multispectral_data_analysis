@@ -1,0 +1,1383 @@
+idModel: 16
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.over_sampling._smote.BorderlineSMOTE'>
+
+additionalParametersClassesEqualization:
+kind: borderline-1
+random_state: RandomState(MT19937)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.92     26224
+           1       0.95      0.88      0.91     22755
+           2       0.96      0.83      0.89      2665
+           3       0.99      0.92      0.95      2318
+
+    accuracy                           0.92     53962
+   macro avg       0.95      0.90      0.92     53962
+weighted avg       0.92      0.92      0.92     53962
+
+confusion matrix not normalized:
+[[25251   973     0     0]
+ [ 2700 19938    87    30]
+ [  463     0  2202     0]
+ [   37   154     0  2127]]
+confusion matrix normalized according to the true classes:
+[[0.96289658 0.03710342 0.         0.        ]
+ [0.11865524 0.87620303 0.00382334 0.00131839]
+ [0.17373358 0.         0.82626642 0.        ]
+ [0.01596204 0.06643658 0.         0.91760138]]
+confusion matrix normalized according to the predicted classes:
+[[0.88752592 0.04619036 0.         0.        ]
+ [0.0949     0.94649893 0.03800786 0.01390821]
+ [0.01627359 0.         0.96199214 0.        ]
+ [0.00130048 0.0073107  0.         0.98609179]]
+confusion matrix normalized according to the whole population:
+[[0.4679404  0.01803121 0.         0.        ]
+ [0.05003521 0.36948223 0.00161225 0.00055595]
+ [0.00858011 0.         0.04080649 0.        ]
+ [0.00068567 0.00285386 0.         0.03941663]]
+
+
+idModel: 17
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.over_sampling._smote.BorderlineSMOTE'>
+
+additionalParametersClassesEqualization:
+kind: borderline-2
+random_state: RandomState(MT19937)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.85      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.97      0.54      0.69      2665
+           3       0.98      0.90      0.94      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.94      0.82      0.86     53962
+weighted avg       0.90      0.90      0.90     53962
+
+confusion matrix not normalized:
+[[25247   977     0     0]
+ [ 2995 19675    41    44]
+ [ 1239     0  1426     0]
+ [   48   182     0  2088]]
+confusion matrix normalized according to the true classes:
+[[0.96274405 0.03725595 0.         0.        ]
+ [0.13161942 0.86464513 0.0018018  0.00193364]
+ [0.46491557 0.         0.53508443 0.        ]
+ [0.02070751 0.07851596 0.         0.90077653]]
+confusion matrix normalized according to the predicted classes:
+[[0.85499001 0.0468945  0.         0.        ]
+ [0.10142572 0.94436978 0.02794819 0.0206379 ]
+ [0.04195875 0.         0.97205181 0.        ]
+ [0.00162552 0.00873572 0.         0.9793621 ]]
+confusion matrix normalized according to the whole population:
+[[0.46786628 0.01810533 0.         0.        ]
+ [0.05550202 0.36460843 0.00075979 0.00081539]
+ [0.0229606  0.         0.026426   0.        ]
+ [0.00088951 0.00337274 0.         0.0386939 ]]
+
+
+idModel: 18
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.over_sampling._random_over_sampler.RandomOverSampler'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93     26224
+           1       0.94      0.88      0.91     22755
+           2       0.91      0.84      0.88      2665
+           3       0.99      0.91      0.95      2318
+
+    accuracy                           0.92     53962
+   macro avg       0.93      0.90      0.91     53962
+weighted avg       0.92      0.92      0.92     53962
+
+confusion matrix not normalized:
+[[25193  1031     0     0]
+ [ 2505 20006   218    26]
+ [  415     0  2250     0]
+ [   14   198     0  2106]]
+confusion matrix normalized according to the true classes:
+[[0.96068487 0.03931513 0.         0.        ]
+ [0.1100857  0.87919139 0.00958031 0.00114261]
+ [0.15572233 0.         0.84427767 0.        ]
+ [0.00603969 0.08541846 0.         0.90854185]]
+confusion matrix normalized according to the predicted classes:
+[[8.95687418e-01 4.85519190e-02 0.00000000e+00 0.00000000e+00]
+ [8.90603335e-02 9.42123852e-01 8.83306321e-02 1.21951220e-02]
+ [1.47545063e-02 0.00000000e+00 9.11669368e-01 0.00000000e+00]
+ [4.97742383e-04 9.32422887e-03 0.00000000e+00 9.87804878e-01]]
+confusion matrix normalized according to the whole population:
+[[4.66865572e-01 1.91060376e-02 0.00000000e+00 0.00000000e+00]
+ [4.64215559e-02 3.70742374e-01 4.03987992e-03 4.81820540e-04]
+ [7.69059709e-03 0.00000000e+00 4.16960083e-02 0.00000000e+00]
+ [2.59441829e-04 3.66924873e-03 0.00000000e+00 3.90274638e-02]]
+
+
+idModel: 19
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.over_sampling._smote.SMOTE'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.82      0.58      0.68      2665
+           3       0.99      0.89      0.94      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.86     53962
+weighted avg       0.90      0.90      0.90     53962
+
+confusion matrix not normalized:
+[[25136  1080     8     0]
+ [ 2711 19677   341    26]
+ [ 1096    25  1544     0]
+ [   33   222     0  2063]]
+confusion matrix normalized according to the true classes:
+[[9.58511287e-01 4.11836486e-02 3.05064063e-04 0.00000000e+00]
+ [1.19138651e-01 8.64733026e-01 1.49857174e-02 1.14260602e-03]
+ [4.11257036e-01 9.38086304e-03 5.79362101e-01 0.00000000e+00]
+ [1.42364107e-02 9.57722174e-02 0.00000000e+00 8.89991372e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.86747653 0.05141878 0.0042261  0.        ]
+ [0.09356019 0.93682156 0.18013735 0.01244615]
+ [0.03782441 0.00119025 0.81563656 0.        ]
+ [0.00113887 0.01056942 0.         0.98755385]]
+confusion matrix normalized according to the whole population:
+[[4.65809273e-01 2.00140840e-02 1.48252474e-04 0.00000000e+00]
+ [5.02390571e-02 3.64645491e-01 6.31926170e-03 4.81820540e-04]
+ [2.03105889e-02 4.63288981e-04 2.86127275e-02 0.00000000e+00]
+ [6.11541455e-04 4.11400615e-03 0.00000000e+00 3.82306067e-02]]
+
+
+idModel: 20
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_enn.SMOTEENN'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+enn: EditedNearestNeighbours(n_jobs=-1)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.93      0.86      0.90     22755
+           2       0.83      0.57      0.68      2665
+           3       0.98      0.86      0.92      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.81      0.85     53962
+weighted avg       0.90      0.90      0.89     53962
+
+confusion matrix not normalized:
+[[25154  1064     6     0]
+ [ 2775 19640   301    39]
+ [ 1111    32  1522     0]
+ [   31   296     0  1991]]
+confusion matrix normalized according to the true classes:
+[[9.59197682e-01 4.05735204e-02 2.28798048e-04 0.00000000e+00]
+ [1.21951220e-01 8.63107009e-01 1.32278620e-02 1.71390903e-03]
+ [4.16885553e-01 1.20075047e-02 5.71106942e-01 0.00000000e+00]
+ [1.33735979e-02 1.27696290e-01 0.00000000e+00 8.58930112e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.86526091 0.05058958 0.00328048 0.        ]
+ [0.09545595 0.93381514 0.1645708  0.01921182]
+ [0.03821678 0.00152149 0.83214872 0.        ]
+ [0.00106635 0.01407379 0.         0.98078818]]
+confusion matrix normalized according to the whole population:
+[[4.66142841e-01 1.97175790e-02 1.11189355e-04 0.00000000e+00]
+ [5.14250769e-02 3.63959824e-01 5.57799933e-03 7.22730811e-04]
+ [2.05885623e-02 5.93009896e-04 2.82050332e-02 0.00000000e+00]
+ [5.74478337e-04 5.48534154e-03 0.00000000e+00 3.68963345e-02]]
+
+
+idModel: 21
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_enn.SMOTEENN'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+enn: EditedNearestNeighbours(kind_sel='mode', n_jobs=-1)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.83      0.59      0.69      2665
+           3       0.98      0.88      0.93      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.86     53962
+weighted avg       0.90      0.90      0.89     53962
+
+confusion matrix not normalized:
+[[25139  1081     4     0]
+ [ 2756 19630   323    46]
+ [ 1080    16  1569     0]
+ [   33   248     0  2037]]
+confusion matrix normalized according to the true classes:
+[[9.58625686e-01 4.12217816e-02 1.52532032e-04 0.00000000e+00]
+ [1.21116238e-01 8.62667546e-01 1.41946825e-02 2.02153373e-03]
+ [4.05253283e-01 6.00375235e-03 5.88742964e-01 0.00000000e+00]
+ [1.42364107e-02 1.06988783e-01 0.00000000e+00 8.78774806e-01]]
+confusion matrix normalized according to the predicted classes:
+[[8.66623001e-01 5.15375447e-02 2.10970464e-03 0.00000000e+00]
+ [9.50082736e-02 9.35876043e-01 1.70358650e-01 2.20835334e-02]
+ [3.72311087e-02 7.62812872e-04 8.27531646e-01 0.00000000e+00]
+ [1.13761721e-03 1.18235995e-02 0.00000000e+00 9.77916467e-01]]
+confusion matrix normalized according to the whole population:
+[[4.65864868e-01 2.00326155e-02 7.41262370e-05 0.00000000e+00]
+ [5.10729773e-02 3.63774508e-01 5.98569364e-03 8.52451725e-04]
+ [2.00140840e-02 2.96504948e-04 2.90760165e-02 0.00000000e+00]
+ [6.11541455e-04 4.59582669e-03 0.00000000e+00 3.77487862e-02]]
+
+
+idModel: 22
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_enn.SMOTEENN'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+enn: EditedNearestNeighbours(n_jobs=-1, sampling_strategy='all')
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.86      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.81      0.58      0.67      2665
+           3       0.99      0.90      0.94      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.86     53962
+weighted avg       0.90      0.90      0.89     53962
+
+confusion matrix not normalized:
+[[25169  1050     5     0]
+ [ 2827 19570   346    12]
+ [ 1085    44  1536     0]
+ [   32   209     0  2077]]
+confusion matrix normalized according to the true classes:
+[[9.59769677e-01 4.00396583e-02 1.90665040e-04 0.00000000e+00]
+ [1.24236432e-01 8.60030762e-01 1.52054494e-02 5.27356625e-04]
+ [4.07129456e-01 1.65103189e-02 5.76360225e-01 0.00000000e+00]
+ [1.38050043e-02 9.01639344e-02 0.00000000e+00 8.96031061e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.86452787 0.05030422 0.00264971 0.        ]
+ [0.09710439 0.93757486 0.18335983 0.00574438]
+ [0.03726857 0.00210799 0.81399046 0.        ]
+ [0.00109917 0.01001294 0.         0.99425562]]
+confusion matrix normalized according to the whole population:
+[[4.66420815e-01 1.94581372e-02 9.26577962e-05 0.00000000e+00]
+ [5.23887180e-02 3.62662614e-01 6.41191950e-03 2.22378711e-04]
+ [2.01067418e-02 8.15388607e-04 2.84644750e-02 0.00000000e+00]
+ [5.93009896e-04 3.87309588e-03 0.00000000e+00 3.84900486e-02]]
+
+
+idModel: 23
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_enn.SMOTEENN'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+enn: EditedNearestNeighbours(kind_sel='mode', n_jobs=-1, sampling_strategy='all')
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.82      0.57      0.68      2665
+           3       0.98      0.88      0.93      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.85     53962
+weighted avg       0.90      0.90      0.89     53962
+
+confusion matrix not normalized:
+[[25146  1073     5     0]
+ [ 2709 19680   327    39]
+ [ 1107    30  1528     0]
+ [   31   246     0  2041]]
+confusion matrix normalized according to the true classes:
+[[9.58892617e-01 4.09167175e-02 1.90665040e-04 0.00000000e+00]
+ [1.19050758e-01 8.64864865e-01 1.43704680e-02 1.71390903e-03]
+ [4.15384615e-01 1.12570356e-02 5.73358349e-01 0.00000000e+00]
+ [1.33735979e-02 1.06125971e-01 0.00000000e+00 8.80500431e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.8673128  0.05102478 0.00268817 0.        ]
+ [0.09343635 0.93585049 0.17580645 0.01875   ]
+ [0.03818163 0.0014266  0.82150538 0.        ]
+ [0.00106922 0.01169813 0.         0.98125   ]]
+confusion matrix normalized according to the whole population:
+[[4.65994589e-01 1.98843631e-02 9.26577962e-05 0.00000000e+00]
+ [5.02019940e-02 3.64701086e-01 6.05981987e-03 7.22730811e-04]
+ [2.05144361e-02 5.55946777e-04 2.83162225e-02 0.00000000e+00]
+ [5.74478337e-04 4.55876357e-03 0.00000000e+00 3.78229124e-02]]
+
+
+idModel: 24
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_tomek.SMOTETomek'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+tomek: TomekLinks(n_jobs=-1)
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.94      0.86      0.90     22755
+           2       0.82      0.59      0.68      2665
+           3       0.99      0.89      0.94      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.86     53962
+weighted avg       0.90      0.90      0.90     53962
+
+confusion matrix not normalized:
+[[25140  1076     8     0]
+ [ 2775 19623   346    11]
+ [ 1064    33  1568     0]
+ [   32   228     0  2058]]
+confusion matrix normalized according to the true classes:
+[[9.58663819e-01 4.10311165e-02 3.05064063e-04 0.00000000e+00]
+ [1.21951220e-01 8.62359921e-01 1.52054494e-02 4.83410240e-04]
+ [3.99249531e-01 1.23827392e-02 5.88367730e-01 0.00000000e+00]
+ [1.38050043e-02 9.83606557e-02 0.00000000e+00 8.87834340e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.86656785 0.05133588 0.00416233 0.        ]
+ [0.09565337 0.93621183 0.18002081 0.00531658]
+ [0.03667574 0.00157443 0.81581686 0.        ]
+ [0.00110303 0.01087786 0.         0.99468342]]
+confusion matrix normalized according to the whole population:
+[[4.65883399e-01 1.99399577e-02 1.48252474e-04 0.00000000e+00]
+ [5.14250769e-02 3.63644787e-01 6.41191950e-03 2.03847152e-04]
+ [1.97175790e-02 6.11541455e-04 2.90574849e-02 0.00000000e+00]
+ [5.93009896e-04 4.22519551e-03 0.00000000e+00 3.81379489e-02]]
+
+
+idModel: 25
+seed: 1609620986
+overlayPath: /home/lmathy/breast_cancer_analysis/overlay
+dataCubePath: /home/lmathy/breast_cancer_analysis/br20832_cores
+kFoldIndicesPath: /home/lmathy/breast_cancer_analysis/matlab/histology/kFoldInd3.mat
+colours: 
+[[103 193  66]
+ [255   0   0]
+ [165  55 156]
+ [243 143  53]
+ [194 243 174]
+ [ 69 120 236]]
+peakWaveQualityTest: 1655
+troughWaveQualityTest: 1760
+minimumQualityTest: 0.1
+maximumQualityTest: 2
+makeQualityTestTrainingSet: True
+makeQualityTestTestSet: True
+noiseReductionFirst: True
+methodNoiseReduction: None
+numberPrincipalComponents: 35
+inverseTransform: True
+
+additionalParametersNoiseReduction:
+
+pcaClass informations: None
+
+intervalsToSelect: 
+None
+normalise: False
+methodSavitzkyGolayFilter: savitzky_golay_filter
+smoothingPoints: 13
+orderPolynomialFit: 4
+
+additionalParametersSavitzkyGolayFilter:
+deriv: 2
+mode: constant
+cval: 0.0
+
+dictionaryClassesMapping: 
+{(0, 1): 0, (2, 3): 1, (4,): 2, (5,): 3}
+methodClassesEqualization: <class 'imblearn.combine._smote_tomek.SMOTETomek'>
+
+additionalParametersClassesEqualization:
+random_state: RandomState(MT19937)
+smote: SMOTE(n_jobs=-1, random_state=RandomState(MT19937) at 0x7FB353D84540)
+tomek: TomekLinks(n_jobs=-1, sampling_strategy='all')
+n_jobs: -1
+
+methodFeatureSelection: None
+
+waveNumbers:
+[ 912  916  920  924  928  932  936  940  944  948  952  956  960  964
+  968  972  976  980  984  988  992  996 1000 1004 1008 1012 1016 1020
+ 1024 1028 1032 1036 1040 1044 1048 1052 1056 1060 1064 1068 1072 1076
+ 1080 1084 1088 1092 1096 1100 1104 1108 1112 1116 1120 1124 1128 1132
+ 1136 1140 1144 1148 1152 1156 1160 1164 1168 1172 1176 1180 1184 1188
+ 1192 1196 1200 1204 1208 1212 1216 1220 1224 1228 1232 1236 1240 1244
+ 1248 1252 1256 1260 1264 1268 1272 1276 1280 1284 1288 1292 1296 1300
+ 1304 1308 1312 1316 1320 1324 1328 1332 1336 1340 1344 1348 1352 1356
+ 1360 1364 1368 1372 1376 1380 1384 1388 1392 1396 1400 1404 1408 1412
+ 1416 1420 1424 1428 1432 1436 1440 1444 1448 1452 1456 1460 1464 1468
+ 1472 1476 1480 1484 1488 1492 1496 1500 1504 1508 1512 1516 1520 1524
+ 1528 1532 1536 1540 1544 1548 1552 1556 1560 1564 1568 1572 1576 1580
+ 1584 1588 1592 1596 1600 1604 1608 1612 1616 1620 1624 1628 1632 1636
+ 1640 1644 1648 1652 1656 1660 1664 1668 1672 1676 1680 1684 1688 1692
+ 1696 1700 1704 1708 1712 1716 1720 1724 1728 1732 1736 1740 1744 1748
+ 1752 1756 1760 1764 1768 1772 1776 1780 1784 1788 1792 1796 1800]
+
+model: <class 'sklearn.ensemble._forest.RandomForestClassifier'>
+
+learning model informations:
+bootstrap: True
+ccp_alpha: 0.0
+class_weight: None
+criterion: gini
+max_depth: None
+max_features: sqrt
+max_leaf_nodes: None
+max_samples: None
+min_impurity_decrease: 0.0
+min_impurity_split: None
+min_samples_leaf: 10
+min_samples_split: 2
+min_weight_fraction_leaf: 0.0
+n_estimators: 500
+n_jobs: -1
+oob_score: False
+random_state: RandomState(MT19937)
+verbose: 0
+warm_start: False
+
+widthSubwindow: 1
+heightSubwindow: 1
+methodSubwindow: None
+
+class distribution after potential subwindows creations:
+class number: 0, number elements: 145386
+class number: 1, number elements: 88205
+class number: 2, number elements: 1766
+class number: 3, number elements: 25382
+total number elements: 260739
+
+makeMirrors: True
+makeRotations: True
+
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91     26224
+           1       0.93      0.86      0.90     22755
+           2       0.82      0.58      0.68      2665
+           3       0.99      0.86      0.92      2318
+
+    accuracy                           0.90     53962
+   macro avg       0.90      0.82      0.85     53962
+weighted avg       0.90      0.90      0.89     53962
+
+confusion matrix not normalized:
+[[25147  1072     5     0]
+ [ 2764 19641   338    12]
+ [ 1089    31  1545     0]
+ [   34   290     0  1994]]
+confusion matrix normalized according to the true classes:
+[[9.58930750e-01 4.08785845e-02 1.90665040e-04 0.00000000e+00]
+ [1.21467809e-01 8.63150956e-01 1.48538783e-02 5.27356625e-04]
+ [4.08630394e-01 1.16322702e-02 5.79737336e-01 0.00000000e+00]
+ [1.46678171e-02 1.25107852e-01 0.00000000e+00 8.60224331e-01]]
+confusion matrix normalized according to the predicted classes:
+[[0.86612248 0.0509651  0.00264831 0.        ]
+ [0.09519873 0.93377389 0.17902542 0.00598205]
+ [0.03750775 0.0014738  0.81832627 0.        ]
+ [0.00117104 0.0137872  0.         0.99401795]]
+confusion matrix normalized according to the whole population:
+[[4.66013120e-01 1.98658315e-02 9.26577962e-05 0.00000000e+00]
+ [5.12212298e-02 3.63978355e-01 6.26366702e-03 2.22378711e-04]
+ [2.01808680e-02 5.74478337e-04 2.86312590e-02 0.00000000e+00]
+ [6.30073014e-04 5.37415218e-03 0.00000000e+00 3.69519291e-02]]
+
+
